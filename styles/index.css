@@ -3,6 +3,11 @@ html {
     scroll-behavior: smooth;
 }
 
+main {
+    width: 100%;
+    height: 100%;
+}
+
 a:hover {
     color: white;
 }
@@ -54,6 +59,7 @@ hr {
     margin: 1rem 1rem;
 }
 
+
 .display-4 {
     margin: 2rem;
 }
@@ -78,6 +84,7 @@ hr {
 }
 
 @media (max-width: 1200px) {
+    
     .btn-main {
         flex-direction: column;
     }
@@ -86,6 +93,10 @@ hr {
         margin-bottom: 1rem;
     }
 
+    .desktop-visible{
+        display: none;
+    }
+    
     .row {
         margin-bottom: 0;
     }

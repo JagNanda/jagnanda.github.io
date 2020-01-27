@@ -27,10 +27,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item ml-1">
+                    <!-- <li class="nav-item ml-1">
                         <a href="#about" class="nav-link link-active">About</a>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+                    <li class="nav-item ml-1">
                         <a href="#projects" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
@@ -43,16 +43,16 @@
     <main>
         <div class="w-75 text-center mx-auto">
             <h1 class="display-3">Jag Nanda</h1>
-            <h5 class="lead mt-4">Aspiring Full Stack Developer</h5>
-            <p class="text-secondary">Hi, my name is Jag Nanda and I'm an aspiring full stack developer residing in
+            <h5 class="lead mt-4">Aspiring Developer</h5>
+            <p class="text-secondary">Hi, my name is Jag Nanda and I'm an aspiring developer residing in
                 <b>Mississauga,
                     Ontario</b>. Currently I am
                 attending Sheridan College's Software Development and Network Engineering program but I also enjoy
                 learning new skills and technologies during my own free time.</p>
             <hr width="25%">
             <div class="btn-main text-white">
-                <a class="btn btn-dark mx-1 mt-3 px-5" href="#about">About Me</a>
-                <a class="btn btn-outline-dark mx-1 mt-3 px-5" href="#contact">Contact</a>
+                <!-- <a class="btn btn-dark mx-1 mt-3 px-5" href="https://www.linkedin.com/in/jag-nanda-48006418b/">About Me</a> -->
+                <a class="btn btn-dark mx-1 mt-3 px-5" href="#contact">Contact</a>
             </div>
         </div>
         <div class="d-flex flex-wrap justify-content-center my-2">
@@ -78,138 +78,137 @@
 
     <section>
         <h2 class="mb-3 font-weight-bold" id="projects">Projects</h2>
-        <div class="row">
-            <div class="col-sm-12 col-lg-4">
-                <div class="card bg-light shadow h-100">
-                    <h5 class="card-header bg-dark text-white">Sherpool</h5>
-                    <div class="card-body">
-                        <img class="card-img img-fluid" src="images/projects/sherpool.png">
-                        <p class="card-text">A carpool service application dedicated to Sheridan College Campuses.
-                            Created
-                            using Java servlets and jsps.</p>
-                        <div class="d-flex">
-                            <div class="d-flex align-items-center text-secondary flex-wrap skills-used">
-                                <i class="devicon-java-plain skill-used"></i>
-                                <i class="devicon-bootstrap-plain skill-used"></i>
-                                <i class="devicon-html5-plain skill-used"></i>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card bg-light shadow h-100">
+                        <h5 class="card-header bg-dark text-white">Sherpool</h5>
+                        <div class="card-body">
+                            <img class="card-img img-fluid" src="images/projects/sherpool.png">
+                            <p class="card-text">A carpool service application dedicated to Sheridan College Campuses.
+                                Created
+                                using Java servlets and jsps.</p>
+                            <div class="d-flex">
+                                <div class="d-flex align-items-center text-secondary flex-wrap skills-used">
+                                    <i class="devicon-java-plain skill-used"></i>
+                                    <i class="devicon-bootstrap-plain skill-used"></i>
+                                    <i class="devicon-html5-plain skill-used"></i>
+                                    <i class="devicon-mysql-plain skill-used"></i>
+                                </div>
+                                <div class="d-flex align-items-center project-btns ml-auto">
+                                    <a class="btn btn-block btn-dark px-1"
+                                        href="https://github.com/JagNanda/Sherpool">Github</a>
+                                </div>
                             </div>
-                            <div class="d-flex align-items-center project-btns ml-auto">
-                                <a class="btn btn-block btn-dark px-1"
-                                    href="https://github.com/JagNanda/Sherpool">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card bg-light shadow h-100">
+                        <h5 class="card-header bg-dark text-white">React Calorie Counter</h5>
+                        <div class="card-body">
+                            <img class="card-img img-fluid" src="images/projects/calorie.png">
+                            <p class="card-text">An application that helps you keep track of your calories and macro
+                                nutrients. Firebase was used for the backend.
+                            </p>
+                            <div class="d-flex">
+                                <div class="d-flex text-secondary flex-wrap skills-used">
+                                    <i class="devicon-react-original-wordmark skill-used"></i>
+                                    <i class="devicon-sass-original skill-used"></i>
+                                    <i class="devicon-html5-plain skill-used"></i>
+                                </div>
+                                <div class="d-flex flex-column align-items-center project-btns ml-auto">
+                                    <a class="btn btn-block btn-dark "
+                                        href="https://jagn-react-calorie-counter.herokuapp.com/dashboard">Demo</a>
+                                    <a class="btn btn-block btn-outline-dark"
+                                        href="https://github.com/JagNanda/Calorie-Counter-App">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card bg-light shadow h-100">
+                        <h5 class="card-header bg-dark text-white">The Simpsons Jeopardy</h5>
+                        <div class="card-body">
+                            <img class="card-img img-fluid" src="images/projects/jeopardy.png">
+                            <p class="card-text">A jeopardy game based off The Simpsons created using java servlets and
+                                jsps.
+                            </p>
+                            <div class="d-flex">
+                                <div class="d-flex align-items-center text-secondary flex-wrap skills-used">
+                                    <i class="devicon-java-plain skill-used"></i>
+                                    <i class="devicon-css3-plain skill-used"></i>
+                                    <i class="devicon-html5-plain skill-used"></i>
+                                </div>
+                                <div class="d-flex align-items-center project-btns ml-auto">
+                                    <a class="btn btn-block btn-dark px-1"
+                                        href="https://github.com/JagNanda/TheSimpsonsJeopardy">Github</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-4">
-                <div class="card bg-light shadow h-100">
-                    <h5 class="card-header bg-dark text-white">React Calorie Counter</h5>
-                    <div class="card-body">
-                        <img class="card-img img-fluid" src="images/projects/calorie.png">
-                        <p class="card-text">An application that helps you keep track of your calories and macro
-                            nutrients. Firebase was used for the backend.
-                        </p>
-                        <div class="d-flex">
-                            <div class="d-flex text-secondary flex-wrap skills-used">
-                                <i class="devicon-react-original-wordmark skill-used"></i>
-                                <i class="devicon-sass-original skill-used"></i>
-                                <i class="devicon-html5-plain skill-used"></i>
-                            </div>
-                            <div class="d-flex flex-column align-items-center project-btns ml-auto">
-                                <a class="btn btn-block btn-dark "
-                                    href="https://jagn-react-calorie-counter.herokuapp.com/dashboard">Demo</a>
-                                <a class="btn btn-block btn-outline-dark"
-                                    href="https://github.com/JagNanda/Calorie-Counter-App">Github</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- </div> -->
-            <!-- <div class="card-deck mb-5"> -->
-            <div class="col-sm-12 col-lg-4">
-                <div class="card bg-light shadow h-100">
-                    <h5 class="card-header bg-dark text-white">The Simpsons Jeopardy</h5>
-                    <div class="card-body">
-                        <img class="card-img img-fluid" src="images/projects/jeopardy.png">
-                        <p class="card-text">A jeopardy game based off The Simpsons created using java servlets and
-                            jsps.
-                        </p>
-                        <div class="d-flex">
-                            <div class="d-flex align-items-center text-secondary flex-wrap skills-used">
-                                <i class="devicon-java-plain skill-used"></i>
-                                <i class="devicon-css3-plain skill-used"></i>
-                                <i class="devicon-html5-plain skill-used"></i>
-                            </div>
-                            <div class="d-flex align-items-center project-btns ml-auto">
-                                <a class="btn btn-block btn-dark px-1"
-                                    href="https://github.com/JagNanda/TheSimpsonsJeopardy">Github</a>
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card bg-light shadow h-100">
+                        <h5 class="card-header bg-dark text-white">React To-Do App</h5>
+                        <div class="card-body">
+                            <img class="card-img img-fluid" src="images/projects/todo.png">
+                            <p class="card-text">A simple To-Do app created in React.</p>
+                            <div class="d-flex">
+                                <div class="d-flex text-secondary flex-wrap skills-used">
+                                    <i class="devicon-react-original-wordmark skill-used"></i>
+                                    <i class="devicon-sass-original skill-used"></i>
+                                    <i class="devicon-html5-plain skill-used"></i>
+                                </div>
+                                <div class="d-flex flex-column align-items-center project-btns ml-auto">
+                                    <a class="btn btn-block btn-dark"
+                                        href="https://jagn-react-todo-app.herokuapp.com/">Demo</a>
+                                    <a class="btn btn-block btn-outline-dark"
+                                        href="https://github.com/JagNanda/React-ToDo-App">Github</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-lg-4">
-                <div class="card bg-light shadow h-100">
-                    <h5 class="card-header bg-dark text-white">React To-Do App</h5>
-                    <div class="card-body">
-                        <img class="card-img img-fluid" src="images/projects/todo.png">
-                        <p class="card-text">A simple To-Do app created in React.</p>
-                        <div class="d-flex">
-                            <div class="d-flex text-secondary flex-wrap skills-used">
-                                <i class="devicon-react-original-wordmark skill-used"></i>
-                                <i class="devicon-sass-original skill-used"></i>
-                                <i class="devicon-html5-plain skill-used"></i>
-                            </div>
-                            <div class="d-flex flex-column align-items-center project-btns ml-auto">
-                                <a class="btn btn-block btn-dark"
-                                    href="https://jagn-react-todo-app.herokuapp.com/">Demo</a>
-                                <a class="btn btn-block btn-outline-dark"
-                                    href="https://github.com/JagNanda/React-ToDo-App">Github</a>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card bg-light shadow h-100">
+                        <h5 class="card-header bg-dark text-white">BreakOut FX</h5>
+                        <div class="card-body">
+                            <img class="card-img img-fluid" src="images/projects/breakout.png">
+                            <p class="card-text">A breakout game created using Java FX.</p>
+                            <div class="d-flex">
+                                <div class="d-flex align-items-center text-secondary flex-wrap skills-used">
+                                    <i class="devicon-java-plain skill-used"></i>
+                                    <i class="devicon-css3-plain skill-used"></i>
+                                    <i class="devicon-html5-plain skill-used"></i>
+                                </div>
+                                <div class="d-flex align-items-center project-btns ml-auto">
+                                    <a class="btn btn-block btn-dark px-1"
+                                        href="https://github.com/JagNanda/BrickBreakFx">Github</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- </div> -->
-            <!-- <div class="card-deck mb-5"> -->
-            <div class="col-sm-12 col-lg-4">
-                <div class="card bg-light shadow h-100">
-                    <h5 class="card-header bg-dark text-white">BreakOut FX</h5>
-                    <div class="card-body">
-                        <img class="card-img img-fluid" src="images/projects/breakout.png">
-                        <p class="card-text">A breakout game created using Java FX.</p>
-                        <div class="d-flex">
-                            <div class="d-flex align-items-center text-secondary flex-wrap skills-used">
-                                <i class="devicon-java-plain skill-used"></i>
-                                <i class="devicon-css3-plain skill-used"></i>
-                                <i class="devicon-html5-plain skill-used"></i>
-                            </div>
-                            <div class="d-flex align-items-center project-btns ml-auto">
-                                <a class="btn btn-block btn-dark px-1"
-                                    href="https://github.com/JagNanda/BrickBreakFx">Github</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-lg-4">
-                <div class="card bg-light shadow h-100">
-                    <h5 class="card-header bg-dark text-white">Knights-Tour</h5>
-                    <div class="card-body">
-                        <img class="card-img img-fluid" src="images/projects/knight.png">
-                        <p class="card-text">Solving the Knight's Tour algorithm. </p>
-                        <div class="d-flex">
-                            <div class="d-flex align-items-center text-secondary flex-wrap skills-used">
-                                <i class="devicon-java-plain skill-used"></i>
-                                <i class="devicon-css3-plain skill-used"></i>
-                                <i class="devicon-html5-plain skill-used"></i>
-                            </div>
-                            <div class="d-flex align-items-center project-btns ml-auto">
-                                <a class="btn btn-block btn-dark px-1"
-                                    href="https://github.com/JagNanda/Knights-Tour">Github</a>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card bg-light shadow h-100">
+                        <h5 class="card-header bg-dark text-white">Knights-Tour</h5>
+                        <div class="card-body">
+                            <img class="card-img img-fluid" src="images/projects/knight.png">
+                            <p class="card-text">Solving the Knight's Tour algorithm. </p>
+                            <div class="d-flex">
+                                <div class="d-flex align-items-center text-secondary flex-wrap skills-used">
+                                    <i class="devicon-java-plain skill-used"></i>
+                                    <i class="devicon-css3-plain skill-used"></i>
+                                    <i class="devicon-html5-plain skill-used"></i>
+                                </div>
+                                <div class="d-flex align-items-center project-btns ml-auto">
+                                    <a class="btn btn-block btn-dark px-1"
+                                        href="https://github.com/JagNanda/Knights-Tour">Github</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -221,13 +220,13 @@
         <h3 class="font-weight-bold mb-4">Contact</h3>
         <div class="contact-btns">
             <a class="d-block btn btn-outline-dark contact-btn" href="https://github.com/JagNanda?tab=repositories"><i class="fa fa-github" aria-hidden="true"></i>
-                Github
+                <span class="desktop-visible">Github</span>
             </a>
             <a class="d-block btn btn-outline-dark contact-btn" href="https://www.linkedin.com/in/jag-nanda-48006418b/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                Linkedin
+                <span class="desktop-visible">Linkedin</span>
             </a>
-            <a class="d-block btn btn-outline-dark contact-btn" href=""><i class="fa fa-envelope" aria-hidden="true"></i>
-                Email
+            <a class="d-block btn btn-outline-dark contact-btn" href="mailto:jnanda313@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>
+                <span class="desktop-visible">Email</span>
             </a>
         </div>
     </section>

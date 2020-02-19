@@ -3,9 +3,13 @@ html {
     scroll-behavior: smooth;
 }
 
+header {
+    height: 20vh;
+}
+
 main {
     width: 100%;
-    height: 100%;
+    height: 80vh;
 }
 
 a:hover {
@@ -85,6 +89,15 @@ hr {
 
 @media (max-width: 1200px) {
     
+    header {
+        height: auto;
+    }
+    
+    main {
+        width: 100%;
+        height: 100%;
+    }
+
     .btn-main {
         flex-direction: column;
     }
